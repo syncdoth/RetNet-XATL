@@ -1,0 +1,35 @@
+# torch>=2.1.0dev  # installed through conda
+lightning==2.1.2
+lightning[app]
+jsonargparse[signatures]  # CLI
+pandas
+pyarrow
+tokenizers
+sentencepiece
+wandb
+zstd
+
+# for finetuning
+bitsandbytes>=0.41.1  # quantize/bnb.py
+scipy  # TODO: remove when https://github.com/TimDettmers/bitsandbytes/pull/525 is released
+transformers
+peft
+accelerate
+einops==0.6.1
+evaluate
+scikit-learn==1.2.2
+sentencepiece
+wandb
+# other optional dependencies are
+sentencepiece  # pythia, falcon, redpajama
+tokenizers  #  llama-based models
+datasets  # quantize/gptq.py
+zstandard  # scripts/prepare_redpajama.py
+# git+https://github.com/EleutherAI/lm-evaluation-harness.git@master  # eval
+
+fire
+lion-pytorch
+
+#mamba
+causal-conv1d>=1.2.0
+mamba-ssm

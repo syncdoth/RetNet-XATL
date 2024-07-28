@@ -1,0 +1,8 @@
+[submodule "3rdparty/flash-linear-attention"]
+	path = 3rdparty/flash-linear-attention
+	url = https://github.com/sustcsonglin/flash-linear-attention.git
+	branch = main
+[submodule "3rdparty/lm-evaluation-harness"]
+	path = 3rdparty/lm-evaluation-harness
+	url = https://github.com/EleutherAI/lm-evaluation-harness.git
+	branch = big-refactor
