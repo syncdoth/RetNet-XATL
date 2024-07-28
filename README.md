@@ -1,8 +1,11 @@
-# LIT_TRAIN
+# RetNet-XATL (LIT_TRAIN)
 
-A quick training loop for LIT models.
+A quick training code for LIT models. Used for RetNet experiments + XATL (paper: [Cross-Architecture Transfer Learning for Linear-Cost Inference Transformers](https://arxiv.org/abs/2404.02684v1))
 
 ## Acknowledgements
+
+Great thanks to NucleusAI for research collaboration on this work!
+
 This repository is built upon [TinyLlama](https://github.com/jzhang38/TinyLlama), which is built on [lit-gpt](https://github.com/Lightning-AI/lit-gpt) and [flash-attention](https://github.com/Dao-AILab/flash-attention). Be sure to explore this fantastic open-source project if it's new to you!
 ```
 @misc{zhang2024tinyllama,
